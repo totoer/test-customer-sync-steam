@@ -1,0 +1,5 @@
+node_modules
+dist
+.pointer
+.lock
+package-lock.json

@@ -1,0 +1,27 @@
+{
+  "name": "stream_copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/sync.js",
+  "scripts": {
+    "build": "npx tsc",
+    "app": "node dist/app.js",
+    "sync": "node dist/sync.js",
+    "full-reindex": "node dist/sync.js --full-reindex"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "lockfile": "^1.0.4",
+    "lodash": "^4.17.21",
+    "mongodb": "5.4"
+  },
+  "devDependencies": {
+    "@types/lockfile": "^1.0.2",
+    "@types/lodash": "^4.14.194",
+    "prettier": "2.8.8",
+    "typescript": "^5.0.4"
+  }
+}
